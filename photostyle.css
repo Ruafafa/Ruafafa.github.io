@@ -1,0 +1,84 @@
+.pic{
+    background-color: rgb(255, 255, 255);
+    width: 560px;
+    height: 648px;
+    position: absolute;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px black;
+}
+.pic .img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    filter: grayscale(90%);
+    opacity: 0.05;
+    transition:1s linear;
+}
+.pic p{
+    position: absolute;
+    left: 25px;
+    bottom: 50px;
+    font-family:"Comic Sans MS",sans-serif ;
+    color: aliceblue;
+    transition: 2s linear;
+}
+.pic:hover .img{
+    filter: grayscale(0);
+    opacity: 1;
+}
+.pic:hover p{
+    color: black;
+}
+.playground{
+    top: -140%;
+    left: 0%;
+    transform: rotateZ(-15deg);
+}
+.playground .img{
+    background: url(微信图片_20220731195130.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+}
+.classroom{
+    top: -200%;
+    left: 70%;
+    transform: rotateZ(15deg);
+}
+.classroom .img{
+    background: url(微信图片_20220731195118.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+}
+.graduation{
+    top: -280%;
+    left: 34%;
+    transform: rotateZ(0deg);
+}
+.graduation .img{
+    background: url(微信图片_20220730173326.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.fighting{
+    top: -250%;
+    left:20%;
+    transform: rotateZ(-12deg)
+}
+.fighting .img{
+    background: url(微信图片_20220731195015.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+.abstract{
+    top: -280%;
+    left: 50%;
+    transform: rotateZ(12deg)
+}
+.abstract .img{
+    background: url(微信图片_20220730173308.jpg);
+    background-size: cover;
+    background-position: 50%;
+}
+
