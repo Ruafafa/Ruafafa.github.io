@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>临三502丨(゜-゜)つロ</title>
+    <link rel="shortcut icon" href="WebLogo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="photostyle.css">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        .shell{
+            height: 100vh;
+            overflow-x: hidden;
+            perspective: 3px;
+        }
+        .shell div{
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: 30px;
+            letter-spacing: 2px;
+        }
+        .image{
+            transform: translateZ(-1px) scale(1.6);
+            background-size: cover;
+            height: 100vh;
+            z-index: -1;
+        }
+        .text{
+            height: 50vh;
+            background-color: rgba(244, 251, 255, 0.985);
+            position: absolute
+        }
+        .text h1{
+            color: rgba(142, 193, 255, 0.836);
+        }
+        .heading{
+            z-index: -1;
+            transform: translateY(-30vh) translateZ(1px);
+            color: #fff;
+            font-size: 60px;
+            position: absolute;
+            bottom: 0px;
+        }
+        
+    </style>
+</head>
+
+ <!-- 页眉和页脚 -->
+
+
+<body>
+    <div class="shell">
+        <div class="image" style="background-image: url(sf1.png);">
+        </div>
+            <div class="heading">
+            <h1 id="first-page">海内存知己</h1>
+            <p class="subt"> 这里是502的毕业去向站</p>
+            <p class="subtt"><i>资金有限，该网站有效一月左右，网页加载速度较慢，请大家速速保存资源→</i></p>
+             </div>
+        <div class="text">
+            <h1 style="font-size:60px;">「天涯若比邻」</h1>
+        </div>
+        <!-- url的地址里可以放一些图片链接 -->
+        <div class="image" style="background-image: url('video-back.png');"></div>  
+            <iframe 
+            id="bilibilivideo"
+            src="//player.bilibili.com/player.html?aid=342188255&bvid=BV1p94y1m7fQ&cid=735776410&page=1"
+            scrolling="no"  
+            frameborder="0"
+             framespacing="0"
+            allowfullscreen="ture" >
+        </iframe>      
+        <div class="text">
+            <h1 style="font-size:60px;">追忆·（图可交互也）</h1>
+        </div>
+        <div id="photo"></div>     
+        <div class="image-back" style="background-image: url('photo-back.png');z-index:-1;"></div>
+         <div class="pic playground">
+            <div class="img"></div>
+            <p>毕业1</p>
+        </div>
+        <div class="pic classroom">
+            <div class="img"></div>
+            <p>毕业3</p>
+        </div>
+        <div class="pic graduation">
+            <div class="img"></div>
+            <p>毕业2</p>
+        </div>
+        <div class="pic fighting">
+            <div class="img"></div>
+            <p>百日誓师</p>
+        </div>
+        <div class="pic abstract">
+            <div class="img"></div>
+            <p>抽象派</p>
+        </div>
+        <div class="end" >
+            <h1>吹响吧！新起点号</h1>
+            <p>毕业去向图<p>
+        </div>
+            <a href="pictures.html" target="_blank" class="mainp"><img id="main-area" src="main-area.png" alt="主要" ></a>
+            <img src="hyy.png" alt="hyy" class="hyy">
+            <div class="end0"><h1>小彩蛋</h1></div>
+        </div>    
+    </div>
+
+        
+</body>
+    <!-- 注释，上面这一段不要动，这是实现网页滚动视差效果的 -->
+    <body>
+        <header>
+            <a href="https://baike.baidu.com/item/%E4%B8%B4%E6%B1%BE%E5%B8%82%E7%AC%AC%E4%B8%89%E4%B8%AD%E5%AD%A6/6958825" class="logo" target="_blank">临三</a>
+            <ul class="bar">
+                <li>
+                    <a href="#first-page" class="dropdown" >UP</a>
+                </li>
+                <li>
+                    <a href="#bilibilivideo">壮行视频</a>
+                </li>
+                <li>
+                    <a href="#photo">纪念照片</a>
+                </li>
+                <li>    
+                    <a href="#main-area">毕业去向</a>  
+                </li>
+                <li>
+                    <a href="#">关于网页</a>
+                    <div class="dropdown-content">
+                        <img src="guanyu.png" alt="更换图片" class="QRcode">
+                     </div>
+                </li>
+                <li>
+                    <a href="https://pan.baidu.com/s/1A3uMp9OYcsLVroZX5Y-PRA" target="_blank">资源下载++</a>
+                </li>
+            </ul>
+        </header>
+        
+    </body>
+</html>

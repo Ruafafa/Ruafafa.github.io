@@ -1,0 +1,236 @@
+
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei, Helvetica, sans-serif,sans-serif;
+}
+
+header
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .logo
+{
+    color: rgba(255, 255, 255, 0.852);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 3em;
+    text-transform:uppercase ;
+    letter-spacing: -0px;   
+    transition: 0.6s;
+    position:relative;
+    left: 5%;
+}
+
+header ul
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+    background-color: rgba(0, 0, 0, 0.115);
+    background-size: 1000px;
+}
+
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+}
+
+header ul li a:hover
+{
+    background: #fff;
+    color:#2b1055 ;
+}
+
+header ul li:hover .dropdown-content
+{
+    display:block;
+    position: relative;
+}
+
+.dropdown-content
+{
+  display:none;
+}
+
+.QRcode
+{
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    float: bottom;
+    
+}
+/* 此处做一个分割线 */
+
+.bm
+{
+    background-size: cover;
+}
+
+.subt{
+    font-size: 1vh;
+    font-weight: 1000;
+    text-decoration:dotted;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: -50px;
+    color: rgb(255, 255, 255);
+}
+
+.subtt{
+    font-size: 0.5px;
+    font-weight: 500;
+    text-decoration:dotted;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: -10px;
+    color: rgba(127, 255, 212, 0.835);
+}
+
+#author
+{
+    float: right;
+}
+
+#comway
+{
+    float: left;
+}
+
+.heading
+{
+    position:absolute;
+    top: -30%;
+    left: 0%;
+
+}
+
+.heading h1{
+    font-size: 12vh;
+}
+
+header .img
+{
+    position: absolute;
+    top:10%;
+    left: 3vh;
+}
+
+#bilibilivideo
+{
+    position:relative;
+    width: 120vh; 
+    height: 70vh; 
+    left: 15%;
+    top: -70%;
+}
+.image{
+    transition: 0.6s;
+}
+
+#bilivideo{
+    position: fixed;
+}
+
+.footer{
+    background-color: blanchedalmond;
+}
+
+.footer-tltle{
+    color: aqua;
+}
+#main-area{
+    width: 1600px;
+    height: 1080px;
+    position: relative;
+    top: -200vh;
+    padding: 0%;
+    margin: 0 auto;
+}
+/* --------------- */
+.img0{
+    width: 100vh;
+    position: relative;
+    left: 20%;
+}
+
+.subpage-h1{
+font-size: 10vh;
+position:relative;
+top: -30%;
+left: 20%;
+color: rgb(68, 107, 236);
+}
+
+.subpage-h1 span{
+    font-size: 10vh;
+    position:relative;
+    color: rgb(230, 74, 26);
+}
+
+.title
+{
+    font-size: 50px;
+    position:relative;
+    left: 45%;
+    color: rgb(1, 5, 16);
+    font-weight: 1600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.zhushi{
+    position:relative;
+    left: 40%;
+    color: rgb(1, 5, 16);
+    font-weight: 1600;
+}
+
+.image-back{
+    transform: translateZ(-1px) scale(1.6);
+    background-size: cover;
+    z-index: -1;
+    position:absolute;
+    height: 100vw;
+    top: -65%;
+}
+.end{
+    position: relative;
+    top: -240%;
+    font-size: 50px;
+    margin: 0%;
+    padding: 0%;
+}
+
+.mainp{
+    margin: 0%;
+    padding: 0%;
+    height:10vh;
+}
+.hyy{
+    position: relative;
+    width: 180px;
+    height: 250px;
+    display: flex;
+   margin:0 auto ;
+
+}
